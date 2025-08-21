@@ -4,9 +4,8 @@
 
 **🎯 KEY POINT: License scanning is like having a smart assistant that reads legal fine print for your code**
 
-**Opening (30 seconds)**
 
-"Good [morning/afternoon] everyone! Today we're going to talk about something that might sound technical, but is actually quite straightforward and very important for anyone working with software - License Scanning and Open Source License Compliance.
+"Good evening everyone! Today we're going to talk about very important term for anyone working with software - that is License Scanning and Open Source License Compliance.
 
 **MAIN IDEA:** Think of it this way: when you use someone else's code in your project, it's like borrowing a book from a library. Just like library books have rules about how long you can keep them and what you can do with them, open source code also comes with rules called licenses. License scanning helps us understand and follow these rules properly.
 
@@ -18,9 +17,8 @@ Let's dive in and see why this matters and how we can do it effectively."
 
 **🎯 KEY POINT: License scanning automatically finds and reads the "rules" (licenses) for all borrowed code in your project**
 
-**Content (45 seconds)**
 
-"So, what exactly is license scanning? Let me break it down into simple terms:
+"So, what exactly is license scanning?
 
 **🔍 ANALYZING SOFTWARE COMPONENTS** - Think of your software project like a recipe. Just as a recipe uses different ingredients, your software uses different pieces of code - some you wrote yourself, and some you borrowed from others.
 
@@ -34,15 +32,17 @@ Let's dive in and see why this matters and how we can do it effectively."
 
 ---
 
+
+
+
 ## Slide 3: Why is License Scanning Important?
 
 **🎯 KEY POINT: License scanning protects you from legal trouble and gives you confidence to use open source code safely**
 
-**Content (45 seconds)**
 
 "Now you might be wondering - why should I care about this? Here are four key reasons:
 
-**⚖️ AVOID LEGAL RISKS AND PENALTIES** - Using someone's code without following their license rules is like using someone's property without permission. This can lead to lawsuits and expensive penalties. License scanning helps you avoid these problems.
+**⚖️ AVOID LEGAL RISKS AND PENALTIES** - Using someone's code without following their license rules is like using someone's property without permission. This can lead to lawsuits and expensive penalties. License scanning helps us to avoid these problems.
 
 **📋 ENSURE LICENSE COMPLIANCE** - Different licenses have different requirements. Some might require you to give credit to the original author, others might require you to share your own code if you use theirs. License scanning makes sure you know what you need to do.
 
@@ -58,21 +58,20 @@ Let's dive in and see why this matters and how we can do it effectively."
 
 **🎯 KEY POINT: There are 4 main license types - from "use freely" (Permissive) to "share your code too" (Copyleft)**
 
-**Content (60 seconds)**
 
 "Let me explain the main types of open source licenses you'll encounter. Think of these like different types of rental agreements:
 
 **✅ PERMISSIVE LICENSES (MIT, Apache 2.0, BSD)** - **EASIEST TO USE**
-These are like borrowing a tool from a very generous neighbor. They basically say 'use this code however you want, just mention that you got it from me.' These are the easiest to work with because they have very few restrictions.
+These are the easiest to work with because they have very few restrictions.
 
 **🔄 COPYLEFT LICENSES (GPL, AGPL, LGPL)** - **"PAY IT FORWARD" RULE**
-These are more like 'pay it forward' agreements. They say 'you can use my code, but if you share your project with others, you have to share your code too, under the same rules.' GPL is the most common example.
+These are more like 'pay it forward' agreements. it is like 'you can use my code, but if you share your project with others, you have to share your code too, under the same rules.' GPL is the most common example.
 
 **📜 PROPRIETARY/CUSTOM LICENSES** - **READ CAREFULLY**
 These are unique agreements that don't fit the standard patterns. Each one has its own specific rules that you need to read carefully.
 
 **⚡ DUAL LICENSING** - **TWO OPTIONS**
-This is like having two rental options. The code owner says 'you can either use my code under this open source license with its rules, OR pay me money and use it under a commercial license with different rules.'
+in this , The code owner says 'you can either use my code under this open source license with its rules, OR pay me money and use it under a commercial license with different rules.'
 
 **BOTTOM LINE:** The key is knowing which type you're dealing with so you can follow the right rules."
 
@@ -82,7 +81,6 @@ This is like having two rental options. The code owner says 'you can either use 
 
 **🎯 KEY POINT: Choose between FREE tools (good for small teams) and PAID tools (more features for enterprises)**
 
-**Content (60 seconds)**
 
 "Now let's talk about the tools that can help you with license scanning. I'll divide these into two categories:
 
@@ -116,21 +114,20 @@ While primarily known for security scanning, Snyk also provides excellent licens
 
 **🎯 KEY POINT: Automate license checking so it happens automatically with every code change - like having a security guard for your code**
 
-**Content (75 seconds)**
 
-"Now here's where license scanning becomes really powerful - when you integrate it into your development workflow. Let me walk you through this process:
+"Now here's where license scanning becomes really powerful - when we integrate it into our development workflow.
 
 **⚙️ STEP 1: INTEGRATE SCANNING INTO BUILD PIPELINE** - **SET IT AND FORGET IT**
 Instead of checking licenses manually at the end, you set up automatic scanning that happens every time someone adds new code to your project.
 
 **🔍 STEP 2: AUTOMATICALLY DETECT LICENSES** - **NO HUMAN ERROR**
-As soon as new code is added, the scanning tool examines it and identifies any new licenses automatically. You don't have to remember to do this - it just happens.
+As soon as new code is added, the scanning tool examines it and identifies any new licenses automatically. You don't have to remember to do this
 
 **📊 STEP 3: GENERATE COMPLIANCE REPORTS** - **CLEAR VISIBILITY**
 The tool creates easy-to-read reports that show you exactly what licenses are in your project and what you need to do to comply with them.
 
 **🚫 STEP 4: BLOCK BUILDS WITH HIGH-RISK LICENSES** - **AUTOMATIC PROTECTION**
-Here's the really smart part: if someone tries to add code with a license that conflicts with your project's rules, the system can automatically stop the build and alert the team. It's like having a bouncer at the door of your code repository.
+Here's if someone tries to add code with a license that conflicts with your project's rules, the system can automatically stop the build and alert the team. 
 
 **📈 STEP 5: CONTINUOUS MONITORING** - **ALWAYS UP TO DATE**
 The system keeps watching for license changes and new dependencies, so you're always up to date.
@@ -143,7 +140,6 @@ The system keeps watching for license changes and new dependencies, so you're al
 
 **🎯 KEY POINT: Make compliance AUTOMATIC, not manual - set it up once and it works forever**
 
-**Content (60 seconds)**
 
 "Let me share five best practices that will make your license scanning efforts successful:
 
